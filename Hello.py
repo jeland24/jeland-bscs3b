@@ -35,7 +35,7 @@ def run():
         Machine Learning and Data Science projects.
         **👈 Select a demo from the sidebar** to see some examples
         of what Streamlit can do!
-        ### Visit us on our Social Media
+        ### Visit us on our Facebook
         - Check out Jeland Albonial (https://www.facebook.com/jeland.albonial.9)
         - Check out Paolo Espion (https://www.facebook.com/paolo.espion.9)
         - Check out Adrian James Relles (https://www.facebook.com/Eeyyjayy01)
