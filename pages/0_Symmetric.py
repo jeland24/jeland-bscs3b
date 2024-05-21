@@ -33,7 +33,7 @@ if encryption_type == "XOR Cipher":
         return xor_encrypt(ciphertext, key)  # XOR decryption is the same as encryption
 
     # Example usage:
-    st.markdown("<h4>XOR Cipher:</h4><p style='text-align: justify;'>The XOR cipher, also known as the Vernam cipher or the one-time pad, is a symmetric encryption algorithm. It operates by taking the plaintext and a secret key of the same length and performing a bitwise XOR operation between each bit of the plaintext and the corresponding bit of the key.</p>", unsafe_allow_html=True)
+    st.markdown("<h4>XOR Cipher:</h4><p style='text-align: justify;'>An XOR cipher is a simple encryption algorithm that operates using the XOR (exclusive OR) bitwise operation. This method is a type of symmetric key encryption, meaning the same key is used for both encryption and decryption.</p>", unsafe_allow_html=True)
     
     st.write("""
         #### Process:
