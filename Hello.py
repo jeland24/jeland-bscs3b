@@ -26,6 +26,7 @@ def run():
 
     st.write("# Welcome to Streamlit! 👋")
     st.write("BY: JELAND ALBONIAL")
+    st.write("PAOLO ESPION")
 
     st.sidebar.success("Select a demo above.")
 
