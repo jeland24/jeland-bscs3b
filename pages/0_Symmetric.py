@@ -218,7 +218,7 @@ elif encryption_type == "AES":
             f.write(plaintext)
         return decrypted_file_path
 
-    st.markdown("<h4>AES Encryption and Decryption:</h4><p style='text-align: justify;'>AES (Advanced Encryption Standard) is a symmetric encryption algorithm used to secure sensitive data. It was established as the standard for encryption by the U.S. National Institute of Standards and Technology (NIST) in 2001. AES operates on blocks of data, and it supports key sizes of 128, 192, or 256 bits.</p>", unsafe_allow_html=True)
+    st.markdown("<h4>AES Encryption and Decryption:</h4><p style='text-align: justify;'>AES stands for Advanced Encryption Standard. It is a symmetric encryption algorithm used to encrypt and decrypt electronic data. AES is widely used worldwide and has become the de facto standard for securing sensitive information.</p>", unsafe_allow_html=True)
 
     st.write("""
         #### Process:
