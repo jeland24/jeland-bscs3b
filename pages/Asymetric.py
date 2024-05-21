@@ -38,14 +38,14 @@ if encryption_type == "RSA":
         st.code(decrypted.decode('utf8'))
 
 elif encryption_type == "Diffie-Hellman":
-    st.markdown("<h4>Diffie-Hellman Key Exchange:</h4><p style='text-align: justify;'> Diffie-Hellman key exchange is a method of securely exchanging cryptographic keys over a public channel. It allows two parties to generate a shared secret key without exchanging the secret key directly.</p>", unsafe_allow_html=True)
+    st.markdown("<h4>Diffie-Hellman Key Exchange:</h4><p style='text-align: justify;'>The Diffie-Hellman key exchange is a method used to securely exchange cryptographic keys over a public channel. It allows two parties to agree upon a shared secret key, which can then be used for encrypted communication. The algorithm is named after its inventors, Whitfield Diffie and Martin Hellman.</p>", unsafe_allow_html=True)
         
     st.write("""
         #### Process:
         1. Choose a prime number (p) and a generator (g).
         2. Choose private keys (a and b).
-        3. Generate shared secret keys for Alice and Bob using the Diffie-Hellman key exchange algorithm.
-        4. Encrypt and decrypt messages using the shared secret key.
+        3. Utilize the Diffie-Hellman key exchange algorithm to produce shared secret keys for Alice and Bob.
+        4. Employ the shared secret key for encrypting and decrypting messages.
         """)
 
     def modexp(b, e, m):
