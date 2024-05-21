@@ -1,6 +1,6 @@
 ### Welcome to the culmination of our Applied Cryptography journey: Our Final Project.
 
-Meet the Team:
+Developed by:
 
   * Jeland O. Albonial
   
