@@ -123,7 +123,7 @@ elif encryption_type == "Caesar Cipher":
         result = encrypt_decrypt_text(file_contents, shift_keys, ifdecrypt)
         return result
 
-    st.write("<h4>Caesar Cipher:</h4><p style='text-align: justify;'>The Caesar cipher is one of the simplest and most widely known encryption techniques. It is a type of substitution cipher where each letter in the plaintext is shifted a certain number of places down or up the alphabet.</p>", unsafe_allow_html=True)
+    st.write("<h4>Caesar Cipher:</h4><p style='text-align: justify;'>The Caesar cipher is one of the simplest and most widely known encryption techniques. It is a substitution cipher where each letter in the plaintext is shifted a certain number of places down or up the alphabet. </p>", unsafe_allow_html=True)
     
     st.write("""
         #### Process:
