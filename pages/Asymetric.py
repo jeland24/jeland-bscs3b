@@ -13,7 +13,7 @@ encryption_type = st.selectbox("Select Encryption Algorithm", ["Diffie-Hellman",
 
 if encryption_type == "RSA":
 
-    st.markdown("<h4>RSA Encryption:</h4><p style='text-align: justify;'>RSA (Rivest-Shamir-Adleman) is a widely used asymmetric encryption algorithm for secure data transmission. Unlike symmetric encryption, which uses a single key for both encryption and decryption, RSA uses a pair of keys: a public key for encryption and a private key for decryption. It is named after its inventors: Ron Rivest, Adi Shamir, and Leonard Adleman.</p>", unsafe_allow_html=True)
+    st.markdown("<h4>RSA Encryption:</h4><p style='text-align: justify;'>RSA, named after its inventors Ron Rivest, Adi Shamir, and Leonard Adleman, is a widely-used asymmetric cryptographic algorithm. It is primarily used for encryption and digital signatures.</p>", unsafe_allow_html=True)
 
     st.write("""
         #### Process:
