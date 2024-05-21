@@ -13,7 +13,7 @@ hash_type = st.selectbox("Select Hashing Algorithm", ["MD5", "SHA1", "SHA256", "
 if hash_type == "MD5":
     st.write("""
         ### MD5 Hash:
-        MD5 (Message Digest Algorithm 5) is a widely used cryptographic hash function that produces a 128-bit (16-byte) hash value. It is commonly used to verify the integrity of data. However, MD5 is not collision-resistant and is not suitable for use in cryptographic applications that rely on this property.
+        MD5 (Message Digest Algorithm 5) is a widely used cryptographic hash function that produces a 128-bit (16-byte) hash value. It was designed by Ronald Rivest in 1991 and has been extensively used in various security applications, although its security has been compromised over the years due to vulnerabilities.
         """)
 elif hash_type == "SHA1":
     st.write("""
