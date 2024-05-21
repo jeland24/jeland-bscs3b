@@ -37,6 +37,7 @@ def run():
         of what Streamlit can do!
         ### Visit us on our Social Media
         - Check out Jeland Albonial (https://www.facebook.com/jeland.albonial.9)
+        - Check out Paolo Espion (https://www.facebook.com/paolo.espion.9)
         ### Want to learn more?
         - Check out [streamlit.io](https://streamlit.io)
         - Jump into our [documentation](https://docs.streamlit.io)
