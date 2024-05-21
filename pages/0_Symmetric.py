@@ -10,7 +10,7 @@ st.set_page_config(
         page_icon="🔑",
     )
 
-st.write("## Symmetric Encryption")
+st.write("# Symmetric Encryption")
 
 encryption_type = st.selectbox("Select the desired Encryption Algorithm", ["XOR Cipher", "Caesar Cipher","AES"])
 
