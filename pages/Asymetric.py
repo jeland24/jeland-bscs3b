@@ -17,10 +17,10 @@ if encryption_type == "RSA":
 
     st.write("""
         #### Process:
-        1. Generate RSA public and private keys.
-        2. Enter the plaintext message.
-        3. Encrypt the message using the recipient's public key.
-        4. Decrypt the message using the recipient's private key.
+        1. Create RSA public and private key pairs.
+        2. Input the plaintext message.
+        3. Use the recipient's public key to encrypt the message.
+        4. Employ the recipient's private key to decrypt the message.
         """)
     
     publickey, privatekey = rsa.newkeys(1024)
