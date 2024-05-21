@@ -33,7 +33,7 @@ if encryption_type == "XOR Cipher":
         return xor_encrypt(ciphertext, key)  # XOR decryption is the same as encryption
 
     # Example usage:
-    st.markdown("<h4>XOR Cipher:</h4><p style='text-align: justify;'>An XOR cipher is a simple encryption algorithm that operates using the XOR (exclusive OR) bitwise operation. This method is a type of symmetric key encryption, meaning the same key is used for both encryption and decryption.</p>", unsafe_allow_html=True)
+    st.markdown("<h4>XOR Cipher:</h4><p style='text-align: justify;'>The XOR cipher is a straightforward encryption method that relies on the XOR (exclusive OR) operation to encode and decode information. The XOR operation works on two bits, returning 1 if the bits differ and 0 if they are the same.</p>", unsafe_allow_html=True)
     
     st.write("""
         #### Process:
