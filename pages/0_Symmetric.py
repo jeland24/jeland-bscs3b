@@ -37,11 +37,11 @@ if encryption_type == "XOR Cipher":
     
     st.write("""
         #### Process:
-        1. Convert the plaintext and the key to bytes.
-        2. Iterate through each byte of the plaintext.
-        3. XOR each byte of the plaintext with the corresponding byte of the key.
-        4. Append the result to the ciphertext.
-        5. Decryption is the same as encryption.
+        1. Transform both the plaintext and the key into bytes.
+        2. Cycle through each byte of the plaintext.
+        3. Apply the XOR operation to each byte of the plaintext with the corresponding byte of the key.
+        4. Add the outcome to the ciphertext.
+        5. Decryption mirrors the encryption process.
         """)
     option = st.radio("Select Input Type:", ("Text", "File"))
 
