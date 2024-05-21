@@ -127,10 +127,10 @@ elif encryption_type == "Caesar Cipher":
     
     st.write("""
         #### Process:
-        1. Convert each character of the plaintext to its ASCII value.
-        2. Shift the ASCII value by the given key value.
-        3. If the ASCII value goes beyond the printable ASCII range, wrap around.
-        4. Convert the new ASCII value back to its corresponding character.
+        1. Convert every character of the plaintext into its corresponding ASCII code.
+        2. Adjust the ASCII value by the specified key value.
+        3. If the resulting ASCII value exceeds the range of printable ASCII characters, loop back around.
+        4. Convert the modified ASCII value back into its associated character.
         """)
 
     option = st.radio("Select Input Type:", ("Text", "File"))
