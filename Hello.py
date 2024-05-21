@@ -36,7 +36,7 @@ def run():
         **👈 Select a demo from the sidebar** to see some examples
         of what Streamlit can do!
         ### Visit us on our Social Media
-        - Check out [facebook.com](https://www.facebook.com/jeland.albonial.9)
+        - Check out Jeland Albonial[facebook.com](https://www.facebook.com/jeland.albonial.9)
         ### Want to learn more?
         - Check out [streamlit.io](https://streamlit.io)
         - Jump into our [documentation](https://docs.streamlit.io)
