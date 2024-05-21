@@ -44,8 +44,8 @@ elif encryption_type == "Diffie-Hellman":
         #### Process:
         1. Choose a prime number (p) and a generator (g).
         2. Choose private keys (a and b).
-        3. Utilize the Diffie-Hellman key exchange algorithm to produce shared secret keys for Alice and Bob.
-        4. Employ the shared secret key for encrypting and decrypting messages.
+        3. Generate shared secret keys for Alice and Bob using the Diffie-Hellman key exchange algorithm.
+        4. Encrypt and decrypt messages using the shared secret key.
         """)
 
     def modexp(b, e, m):
