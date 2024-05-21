@@ -33,7 +33,7 @@ if encryption_type == "XOR Cipher":
         return xor_encrypt(ciphertext, key)  # XOR decryption is the same as encryption
 
     # Example usage:
-    st.markdown("<h4>XOR Cipher:</h4><p style='text-align: justify;'>The XOR cipher is a straightforward encryption method that relies on the XOR (exclusive OR) operation to encode and decode information. The XOR operation works on two bits, returning 1 if the bits differ and 0 if they are the same.</p>", unsafe_allow_html=True)
+    st.markdown("<h4>XOR Cipher:</h4><p style='text-align: justify;'>The XOR cipher is a straightforward encryption method that relies on the XOR (exclusive OR) operation to encode and decode information. The XOR operation works on two bits, returning 1 if the bits differ and 0 if they are the same. .</p>", unsafe_allow_html=True)
     
     st.write("""
         #### Process:
@@ -123,11 +123,11 @@ elif encryption_type == "Caesar Cipher":
         result = encrypt_decrypt_text(file_contents, shift_keys, ifdecrypt)
         return result
 
-    st.write("<h4>Caesar Cipher:</h4><p style='text-align: justify;'>The Caesar cipher is one of the simplest and most widely known encryption techniques. It is a substitution cipher where each letter in the plaintext is shifted a certain number of places down or up the alphabet. </p>", unsafe_allow_html=True)
+    st.write("<h4>Caesar Cipher:</h4><p style='text-align: justify;'>The Caesar cipher is one of the simplest and most widely known encryption techniques. It is a substitution cipher where each letter in the plaintext is shifted a certain number of places down or up the alphabet. For example, with a shift of 3, 'A' would be encrypted as 'D', 'B' would become 'E', and so on. The method is named after Julius Caesar, who is reputed to have used it to communicate with his generals.</p>", unsafe_allow_html=True)
     
     st.write("""
         #### Process:
-        1. Convert every character of the plaintext into its corresponding ASCII code.
+        1. Transform every character of the plaintext into its corresponding ASCII code.
         2. Adjust the ASCII value by the specified key value.
         3. If the resulting ASCII value exceeds the range of printable ASCII characters, loop back around.
         4. Convert the modified ASCII value back into its associated character.
